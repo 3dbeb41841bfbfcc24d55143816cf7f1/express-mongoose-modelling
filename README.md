@@ -20,7 +20,7 @@ To practice using Mongoose, we will design a small data persisting application t
 
 #### Requirements
 
-- Create an Express application with four models: Airport, Terminal, Flight, and Passenger
+- Create a NodeJS application with four models: Airport, Terminal, Flight, and Passenger
 - Include Mongoose and create embedded and referenced models:
 
   - Airport
