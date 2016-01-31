@@ -24,10 +24,10 @@ To practice using Mongoose, we will design a small data persisting application t
 - Include Mongoose and create embedded and referenced models:
 
   - Airport
-  	- Name(String)
-    	- country(String)
-    	- terminals(Array of embedded Terminal Objects)
-    	- opened(Date)
+  	- name(String)
+  	- country(String)
+  	- terminals(Array of embedded Terminal Objects)
+  	- opened(Date)
   - Terminal
   	- name(String)
     - flights(Array of referenced Flight Objects)
