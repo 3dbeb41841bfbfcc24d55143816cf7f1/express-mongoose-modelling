@@ -1,6 +1,5 @@
 var mongoose = require('mongoose');
 
-
 var TerminalSchema = new mongoose.Schema({
   name:           String,
   flights:        [{ type: mongoose.Schema.ObjectId, ref: 'Flight' }],

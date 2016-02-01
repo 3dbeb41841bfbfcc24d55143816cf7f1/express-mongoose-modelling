@@ -56,7 +56,7 @@ airport1.save()
 /* 2. Create a new Passenger:
 
 var marc = new Passenger({});
-marc.first_name, marc.last_name, etc  
+marc.first_name, marc.last_name, etc
 marc.save()
 */
 
